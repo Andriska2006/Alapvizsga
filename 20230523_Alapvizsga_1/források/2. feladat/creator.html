@@ -1,10 +1,18 @@
 ﻿<!DOCTYPE html>
-<html>
+<html lang="hu">
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="utf-8">
+  
+  <title>LEGO Creator Expert</title>
+
   <script src="jquery.min.js"></script>
   <script src="popper.min.js"></script>
   <script src="bootstrap.min.js"></script>  
+
+  <link rel="stylesheet" href="bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+
 </head>
 <body>
 <!--Képlapozó sáv-->
@@ -24,6 +32,9 @@
       <div class="carousel-item">
         <img src="kepek/02.png" alt="NASA Apollo 11 Holdkomp" title="NASA Apollo 11 Holdkomp">
       </div>
+      <div class="carousel-item">
+        <img src="kepek/03.png" alt="Ford Mustang" title="Ford Mustang">
+      </div>
     </div>      
     
     <a class="carousel-control-prev" href="#demo" data-slide="prev">
@@ -33,7 +44,7 @@
       <span class="carousel-control-next-icon"></span>
     </a>
   </div>
-  <p class="d-none d-md-block">LEGO Creator Expert</p>
+  <h1 class="d-none d-md-block">LEGO Creator Expert</h1>
 </div>
 
 <!--Menü-->
@@ -45,6 +56,10 @@
 
     <li class="nav-item">
       <a class="nav-link text-light" href="#termekek">Creator Expert termékek</a>
+    </li>
+
+    <li class="nav-item">
+      <a class="nav-link text-light" href="#jarmuvek">Járművek</a>
     </li>
 
     <li class="nav-item">
@@ -61,12 +76,79 @@
       <h3>A tégla a részletekben rejtőzik</h3>
   
       <p>Készen állsz az igazi LEGO® építési feladatra? A korszerű LEGO Creator Expert modellek telis-tele vannak bonyolult funkciókkal és apró részletekkel – amelyek minden egyes készletben több órás építési élvezeteket garantálnak.</p>
-      <p>Egy újfajta csomagolást vezettünk be, hogy a felnőtt építők könnyebben megtalálhassák az érdeklődési körüknek és a szenvedélyüknek megfelelő termékeket. Legyen szó a sportról, a filmekről, a művészetről, a járművekről, a híres épületekről vagy a vásári jellegzetességekről, a LEGO-készletek építőkockái segítségével mind életre kelthető. Mivel az új csomagoláson egyértelműen fel van tüntetve, hogy az adott termék milyen érdeklődési körhöz köthető, úgy döntöttünk, megszüntetjük a Creator Expert márkanevet. Bár a márkanév a jövőben nem fog szerepelni a csomagoláson vagy a kommunikációs anyagainkban, termékcsaládunk ugyanúgy tartalmazza majd a haladó szintű, gyűjthető készleteket, amelyek garantáltan hosszú órákon át biztosítják az építés örömét.</p>
+      <p>Egy újfajta csomagolást vezettünk be, hogy a felnőtt építők könnyebben megtalálhassák az érdeklődési körüknek és a szenvedélyüknek megfelelő termékeket. Legyen szó a sportról, a filmekről, a művészetről, a járművekről, a híres épületekről vagy a vásári jellegzetességekről, a LEGO-készletek építőkockái segítségével mind életre kelthető. Mivel az új csomagoláson egyértelműen fel van tüntetve, hogy az adott termék milyen érdeklődési körhöz köthető, úgy döntöttünk, <span style="font-weight: bold;">megszüntetjük</span> a Creator Expert márkanevet. Bár a márkanév a jövőben nem fog szerepelni a csomagoláson vagy a kommunikációs anyagainkban, termékcsaládunk ugyanúgy tartalmazza majd a haladó szintű, gyűjthető készleteket, amelyek garantáltan hosszú órákon át biztosítják az építés örömét.</p>
+
+      <img src="kepek/expertlogo.png" id="logo" alt="Creator Expert Logo" title="Creator Expert Logo">
   </div>
 
   <div class="col-lg-4 ">
     <h3 id="termekek">Creator Expert termékek</h3>
    
+    <table>
+      <tr>
+        <th>Készlet</th>
+        <th>Építőelemek száma</th>
+      </tr>
+      <tr>
+        <td colspan="2" class="fejsor" style="text-align: center;">Járművek</td>
+      </tr>
+      <tr>
+        <td>Ford Mustang</td>
+        <td>1471 db</td>
+      </tr>
+      <tr>
+        <td>SzellemirtókTM ECTO-1</td>
+        <td>2352 db</td>
+      </tr> 
+      <tr>
+        <td>Harley Davidson Fat Boy</td>
+        <td>1023 db</td>
+      </tr>
+      <tr>
+        <td>James Bond Aston Martin DB5</td>
+        <td>1295 db</td>
+      </tr>
+      <tr>
+        <td>Londoni autóbusz</td>
+        <td>1686 db</td>
+      </tr>
+      <tr>
+        <td>Fiat 500</td>
+        <td>960 db</td>
+      </tr>
+      <tr>
+        <td>Volkswagen T1 lakóautó</td>
+        <td>1334 db</td>
+      </tr>
+      <tr>
+        <td>Volkswagen Bogár</td>
+        <td>1167 db</td>
+      </tr>
+      <tr>
+        <td colspan="2" class="fejsor" style="text-align: center;">Épületek</td>
+      </tr>
+      <tr>
+        <td>Colosseum</td>
+        <td>9036 db</td>
+      </tr>
+      <tr>
+        <td>rendőrkapitányság</td>
+        <td>2923 db</td>
+      </tr>
+      <tr>
+        <td>Sarok garázs</td>
+        <td>2569 db</td>
+      </tr>
+      <tr>
+        <td>Könyvesbolt</td>
+        <td>2504 db</td>
+      </tr>
+      <tr>
+        <td>Assemby Square Piactér</td>
+        <td>4002 db</td>
+      </tr>
+      </table>
+
   </div>
 </div>
 
@@ -75,7 +157,7 @@
 <p>A járművek olyan dolgok az életben, amiket a felnőttek és a gyermekek ugyanannyira szeretnek. Azonban amikor a felnőttek nézik a járműveket, gyakran arra koncentrálnak, hogy mennyire praktikusak. Figyelembe veszik a tárolóhelyet, a benzinfogyasztást és a kényelmet. A mi képzeletünk olyan módon van bekorlátozva, ahogy a gyermekeké nincsen. A LEGO® járműkészletek csakis arról szólnak, hogy a járművek mennyire csodálatosak. És ki tudja, talán te is újra felfedezed a varázsukat, amikor ilyen készleteket ajándékozol valakinek!</p>
 
 <div class="row">
-  <div class="py-3">
+  <div class="col-lg-4 py-3">
     <div class="media p-3 h-100">
       <div class="media-body">
         <h4>Fiat 500 <small><i>(10271)</i></small></h4>
@@ -85,7 +167,7 @@
     </div>
   </div>
 
-  <div class="py-3">
+  <div class="col-lg-4 py-3">
     <div class="media  p-3 h-100">
       <div class="media-body">
         <h4>Ford Mustang<small><i>(10265)</i></small></h4>
@@ -95,7 +177,7 @@
     </div>
   </div>
   
-  <div class="py-3">
+  <div class="col-lg-4 py-3">
     <div class="media p-3 h-100">
       <div class="media-body">
         <h4>Harley-Davidson® Fat Boy®<small><i>(10269)</i></small></h4>
@@ -113,7 +195,7 @@
   
   
 <div class="row">
-  <div class="py-3">
+  <div class="col-lg-6 py-3">
     <div class="media p-3 h-100">
       <div class="media-body">
         <h4>Rendőrkapitányság<small><i>(10278)</i></small></h4>
@@ -123,7 +205,7 @@
     </div>
   </div>
 
-  <div class="py-3">
+  <div class="col-lg-6 py-3">
     <div class="media p-3 h-100">
        <div class="media-body">
         <h4>Sarok garázs<small><i>(10265)</i></small></h4>
@@ -135,8 +217,8 @@
 
 </div>
 <!--Lábléc-->
-<div class="footer">
-  
+<div class="footer p-2">
+  <a href="https://lego.com/hu-hu/themes/creator-expert/about" target="_blank">LEGO Creator Expert</a>
 </div>
 
 
